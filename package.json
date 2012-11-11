@@ -1,0 +1,33 @@
+{
+  "name": "Jasmine-Travis-Boilerplate",
+  "title": "Jasmine-Travis-Boilerplate",
+  "description": "Boilerplate for projects with jasmine unittesting framework that build on travis ",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Hyzhak/Jasmine-Travis-Boilerplate",
+  "author": {
+    "name": "Eugene Krenevenets",
+    "email": "hyzhak@ya.ru",
+    "url": "http://hyzhak.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hyzhak/Jasmine-Travis-Boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hyzhak/Jasmine-Travis-Boilerplate/issues"
+  },
+  "licenses": [
+    {
+      "type": "Simplified BSD License",
+      "url": "https://github.com/Hyzhak/Daedal.js/blob/master/LICENSE.md"
+    }
+  ],
+  "keywords": [
+    "boilerplate",
+    "jasmine",
+    "travis"
+  ],
+  "scripts": {
+      "test": ""
+  }
+}
