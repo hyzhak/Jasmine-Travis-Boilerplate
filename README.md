@@ -3,14 +3,13 @@ Jasmine-Travis-Boilerplate [![Build Status](https://secure.travis-ci.org/Hyzhak/
 
 Boilerplate for projects with [jasmine https://github.com/pivotal/jasmine unittesting framework that build on travis
 
-Road map v0.0.1
-===============
+## Road map v0.0.1
 
-## DONE
+### DONE
 
 * add project to travis-ci;
 
-## TODO
+### TODO
 
 * execute tests by travis-ci;
 ** by phantom.js;
