@@ -7,14 +7,16 @@ Road map v0.0.1
 ===============
 
 ## DONE
-# add project to travis-ci;
+
+* add project to travis-ci;
 
 ## TODO
-# execute tests by travis-ci;
-## by phantom.js;
-## by testacular;
-# calculate test coverage;
-# build
-## solid project from modules;
-## minimize;
-# auto-upload downloadable library;
+
+* execute tests by travis-ci;
+** by phantom.js;
+** by testacular;
+* calculate test coverage;
+* build
+** solid project from modules;
+** minimize;
+* auto-upload downloadable library;
