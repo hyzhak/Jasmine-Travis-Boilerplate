@@ -11,3 +11,10 @@ describe('hello World!', function(){
         expect(greeter.greet("World")).toBe("Hello World!");
     });
 });
+
+describe('hell world!', function(){
+    it('Hell! on greet', function(){
+        var greeter = new myapp.Greeter()
+        expect(greeter.greet("World")).toBe("Hell!");
+    });
+});
