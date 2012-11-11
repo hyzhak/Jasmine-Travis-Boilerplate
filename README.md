@@ -12,10 +12,10 @@ Boilerplate for projects with [jasmine https://github.com/pivotal/jasmine unitte
 ### TODO
 
 * execute tests by travis-ci;
-** by phantom.js;
-** by testacular;
+   * by phantom.js;
+   * by testacular;
 * calculate test coverage;
 * build
-** solid project from modules;
-** minimize;
+   * solid project from modules;
+   * minimize;
 * auto-upload downloadable library;
