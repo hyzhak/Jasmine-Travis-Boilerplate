@@ -28,6 +28,6 @@
     "travis"
   ],
   "scripts": {
-      "test": ""
+      "test": "jasmine-node spec/*.js"
   }
 }
