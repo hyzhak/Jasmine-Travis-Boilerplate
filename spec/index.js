@@ -5,6 +5,7 @@
 
     var htmlReporter = new jasmine.HtmlReporter();
 
+    jasmineEnv.addReporter(new jasmine.ConsoleReporter());
     jasmineEnv.addReporter(htmlReporter);
 
     jasmineEnv.specFilter = function(spec) {
