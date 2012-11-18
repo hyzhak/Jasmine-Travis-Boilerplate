@@ -10,6 +10,8 @@ Boilerplate for projects with [jasmine](https://github.com/pivotal/jasmine) unit
 * add project to [travis-ci](travis-ci.org);
 * execute tests at travis-ci;
    * by [phantom.js](phantomjs.org);
+* build
+   * [solid project from js-modules](https://github.com/Hyzhak/Jasmine-Travis-Boilerplate#build);
 
 ### TODO
 
@@ -17,13 +19,12 @@ Boilerplate for projects with [jasmine](https://github.com/pivotal/jasmine) unit
    * by testacular;
 * calculate test coverage;
 * build
-   * solid project from modules;
    * minimize;
 * auto-upload downloadable library;
 
 ## Build
 
-'''
+```
 npm install
 node node_modules\requirejs\bin\r.js -o build\app.build.js optimize=uglify
-'''
+```
