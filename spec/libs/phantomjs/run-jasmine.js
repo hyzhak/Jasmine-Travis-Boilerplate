@@ -43,9 +43,12 @@ if (system.args.length !== 2) {
 
 var page = require('webpage').create();
 
-// Route "console.log()" calls from within the Page context to the main Phantom context (i.e. current "this")
-page.onConsoleMessage = function(msg) {
-    console.log(msg);
+page.onConsoleMessage = function() {
+    console.log.apply(console, arguments);
+};
+
+page.onAlert = function () {
+    phantom.exit(1);
 };
 
 page.open(system.args[1], function(status){
