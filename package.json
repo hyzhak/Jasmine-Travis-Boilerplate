@@ -28,7 +28,8 @@
     "travis"
   ],
   "devDependencies"    : {
-    "grunt"         : "0.3"
+    "grunt"     : "0.3",
+    "requirejs" : "2"
   },
   "scripts": {
       "test": "phantomjs libs/phantomjs/run-jasmine.js specRunner.html"

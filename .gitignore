@@ -1,3 +1,5 @@
 /.idea
 /*.iml
 /config/local.properties.json
+/node_modules
+/dist

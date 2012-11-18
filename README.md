@@ -20,3 +20,10 @@ Boilerplate for projects with [jasmine](https://github.com/pivotal/jasmine) unit
    * solid project from modules;
    * minimize;
 * auto-upload downloadable library;
+
+## Build
+
+'''
+npm install
+node node_modules\requirejs\bin\r.js -o build\app.build.js optimize=uglify
+'''
