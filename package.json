@@ -32,6 +32,6 @@
     "requirejs" : "2"
   },
   "scripts": {
-      "test": "phantomjs libs/phantomjs/run-jasmine.js specRunner.html"
+      "test": "phantomjs spec/libs/phantomjs/run-jasmine.js specRunner.html"
   }
 }
