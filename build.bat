@@ -1,0 +1,1 @@
+node node_modules\requirejs\bin\r.js -o build\app.build.js optimize=none

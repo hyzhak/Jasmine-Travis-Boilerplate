@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+    <link rel="shortcut icon" type="image/png" href="spec/libs/jasmine-standalone-1.2.0/lib/jasmine-1.2.0/jasmine_favicon.png">
+    <link rel="stylesheet" type="text/css" href="spec/libs/jasmine-standalone-1.2.0/jasmine.css">
+
+    <script type="text/javascript" src="spec/libs/jasmine-standalone-1.2.0/jasmine.js"></script>
+    <script type="text/javascript" src="spec/libs/jasmine-standalone-1.2.0/jasmine-html.js"></script>
+    <script type="text/javascript" src="spec/libs/phantomjs/jasmine.console_reporter.js"></script> >
+
+    <script type="text/javascript" src="dist/myLibrary-almond.js"></script>
+    <script type="text/javascript" src="spec/suites/helloWorld.js"></script>
+
+    <title>Global Test</title>
+</head>
+<body>
+       <script type="text/javascript">
+           window.onload = function(){
+               var jasmineEnv = jasmine.getEnv();
+               jasmine.VERBOSE = true;
+               jasmineEnv.updateInterval = 1000;
+
+               var htmlReporter = new jasmine.HtmlReporter();
+
+               jasmineEnv.addReporter(new jasmine.ConsoleReporter());
+               jasmineEnv.addReporter(htmlReporter);
+
+               jasmineEnv.specFilter = function(spec) {
+                   return htmlReporter.specFilter(spec);
+               };
+
+               jasmineEnv.execute();
+           }
+       </script>
+</body>
+</html>

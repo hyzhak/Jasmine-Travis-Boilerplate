@@ -1,5 +1,5 @@
 define([
-    'src/helloWorld'
+    'helloWorld'
 ],function(Greeter){
     describe('hello World!', function(){
         it('Hello on greet', function(){

@@ -1,13 +1,13 @@
 //describe tools
 requirejs.config({
-    baseUrl: 'spec',
+    baseUrl: './src',
     paths: {
-        lib : './libs',
-        suites : './suites',
+        lib : '../spec/libs',
+        suites : '../spec/suites',
         src : '../src'
-    },
+    }
+    /*,
     shim:{
-        /*
         look at: A1
         'lib/jasmine-standalone-1.2.0/jasmine':{
             deps:[],
@@ -15,8 +15,8 @@ requirejs.config({
         },
         'lib/jasmine-standalone-1.2.0/jasmine-html': [],
         'lib/phantomjs/jasmine.console_reporter': []
-         */
     }
+     */
 });
 
 // Start tests
